@@ -14,4 +14,19 @@ abstract class Element{
     slaves = new ArrayList<Element>();
   }
   
+  public abstract void draw();
+  
+  public abstract void move();
+
+  public void addBoss(Element b){
+    boss = b;
+  }
+    
+  public void addDepend(Element s){
+    slaves.add(s);
+  }
+  
+  
+
+  
 }

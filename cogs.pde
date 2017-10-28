@@ -1,4 +1,5 @@
 Vector v1, v2;
+Circle c1;
 
 void setup() {
   size(1200,700);
@@ -12,6 +13,7 @@ void setup() {
   v1.Y(135);
   println( v1.D() );
   //println( v1.D() );
+  c1 =  new Circle( 250,150,0,100);
 }
 
 void draw() {
@@ -21,5 +23,7 @@ void draw() {
   line(0, 0, v2.X(), v2.Y());
   v2.D( v2.D() + 0.2 );
   v2.A( v2.A() + 0.01 );
+  c1.draw();
+  
   
 }
