@@ -1,4 +1,5 @@
 // Enrichment class PVector by magnitude (d) and heading (a)
+// Fast data reading, calculation on data recording
 class Vector{
   private PVector v;
   private float a, d;
