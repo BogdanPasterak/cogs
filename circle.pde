@@ -22,6 +22,6 @@ class Circle extends Element{
   
   @Override
   public void move(){
-    
+    size.A(size.A() + PI / 200);
   }
 }
